@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height:1.4;
+    font-weight: 300;
+}
+.first{
+    background-image: url(1.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.txt1{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+.small1{
+    font-size: 46px;
+    font-weight: 700;
+}
+.small{
+    font-size: 32px;
+}
+.big{
+    font-size: 50px;
+    font-weight: 900;
+}
+.second{
+background-color: black;
+padding: 20px;
+
+}
+.second h1{
+    color: white;
+
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.you{
+    color: white;
+    font-size: 90px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.third{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap:20px;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+.card{
+    width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.2);
+    transition: ease-in-out 0.5s;
+    
+}
+.card:hover{
+    transform: scale(1.07);
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.5);
+    transition: ease-in-out 0.5s;
+
+
+}
+.inside{
+    color: rgb(97, 0, 45);
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 3px 5px 5px rgba(243, 186, 202, 0.714);
+    padding-bottom: 10px;
+
+}
+.algalg{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardtxt{
+    padding: 20px;
+}
+.both{
+    display: flex;
+    margin:auto;
+    height: 30vh;
+    width: 100vw;
+}
+.contact{
+    background-color: rgb(80, 80, 20);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+
+}
+.about{
+    background-color: maroon;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  border: 1px solid black;
+    padding: 10px;
+}
+.h{
+   font-family: sans-serif; 
+   text-align: center;
+   font-weight:700;
+   padding: 15px;
+   font-size: 27px;
+}
+.head{
+    text-align: left;
+}
+.LAST{
+    background-color: black;
+    padding: 20px;
+    width: 100VW;
+}
+.LAST H1{
+    color: white;
+
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.LAST H3{
+    color: wheat;
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.CSSS{
+    font-size: 45px;
+
+}
